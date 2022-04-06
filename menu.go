@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	for {
 		var input string
-		fmt.Print("Please choose a page (0 or 1) :")
+		fmt.Print("Please choose a page(print 0 or 1) :")
       	fmt.Scan(&input)
       	if input == "quit" {
          	break
